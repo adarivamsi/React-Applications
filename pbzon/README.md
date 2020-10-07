@@ -1,68 +1,24 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# PBZon - Passionate Burger Zon E-Commerce
 
-## Available Scripts
+This project is a simplified front end clone of Amazon. It was created with React and CSS (Grid and Flexbox). Feel free to contribute!
 
-In the project directory, you can run:
+## Tools used:
 
-### `yarn start`
+- React
+- Firebase
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Please feel free to create a pull request and submit any issues!
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<hr>
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<p align="center">
+  <i><b>Let's connect and chat!</b></i>
+  <p align="center">
+    <a href="https://www.linkedin.com/in/adarivamsi/" alt="Linkedin"><img src="https://github.com/adarivamsi/adarivamsi/blob/master/linkedin.png" height="30" width="30"></a>&nbsp;
+    <a href="https://www.facebook.com/adarivamsicharan"><img src="https://github.com/adarivamsi/adarivamsi/blob/master/facebook.jpg" height="30" width="30"></a>&nbsp;
+    <a href="https://twitter.com/adarivamsi" alt="Twitter"><img src="https://github.com/adarivamsi/adarivamsi/blob/master/twitter.png" height="30" width="30"></a>&nbsp;
+    <a href="https://www.instagram.com/iam_adarivamsi" alt="Instagram"><img src="https://github.com/adarivamsi/adarivamsi/blob/master/instagram.png" height="30" width="30"></a>&nbsp;
+     <a href="https://t.me/adarivamsi" alt="Telegram"><img src="https://github.com/adarivamsi/adarivamsi/blob/master/telegram.png" height="30" width="30"></a>&nbsp;
+    <a href="https://sites.google.com/view/adarivamsi"><img src="https://github.com/adarivamsi/adarivamsi/blob/master/globe.png" height="30" width="30"></a>
+  </p>    
+</p>
