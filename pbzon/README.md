@@ -7,6 +7,7 @@ This project is a simplified front end clone of Amazon. It was created with Reac
 - React
 - Firebase
 - React Router
+- React Context API
 
 Please feel free to create a pull request and submit any issues!
 

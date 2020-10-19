@@ -1,10 +1,13 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import "./Header.css";
 import SearchIcon from "@material-ui/icons/Search";
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
+import React from "react";
+import { Link } from "react-router-dom";
+import { useStateValue } from "../../../data-layer/StateProvider";
+import "./Header.css";
 
 function Header() {
+  const [{ cart }] = useStateValue();
+
   return (
     <nav className="header">
       <Link to="/">
@@ -40,7 +43,9 @@ function Header() {
         <Link to="/checkout" className="header__link">
           <div className="header__optionCart">
             <ShoppingBasketIcon />
-            <span className="header__optionLineTwo header__cartCount">0</span>
+            <span className="header__optionLineTwo header__cartCount">
+              {cart?.length}
+            </span>
           </div>
         </Link>
       </div>
