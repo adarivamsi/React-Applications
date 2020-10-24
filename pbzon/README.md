@@ -22,6 +22,8 @@ This project is a simplified front end clone of Amazon. It was created with Reac
 
 ## Demo
 
+![](https://github.com/adarivamsi/React-Applications/blob/master/pbzon/pbzon.gif)
+
 Demo: [Link](https://pbzon-716e1.web.app/)
 
 Please feel free to create a pull request and submit any issues!
