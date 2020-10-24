@@ -11,6 +11,19 @@ This project is a simplified front end clone of Amazon. It was created with Reac
 - React Currency Format
 - Firebase Authentication
 
+## Users can
+
+- Users can add products to cart
+- View and Remove products from cart
+- Login and Logout securely with Email and Password
+- Use the application to few product calculations
+- Checkout bar
+- PBZon feel good UI
+
+## Demo
+
+Demo: [Link](https://pbzon-716e1.web.app/)
+
 Please feel free to create a pull request and submit any issues!
 
 <hr>
