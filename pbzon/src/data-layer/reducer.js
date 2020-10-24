@@ -8,6 +8,12 @@ export const getCartTotal = (cart) =>
 
 function reducer(state, action) {
   switch (action.type) {
+    case "SET_USER":
+      // Set when user logs in logs out
+      return {
+        ...state,
+        user: action.user,
+      };
     case "ADD_TO_CART":
       // Logic for adding item to cart
       return {

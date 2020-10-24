@@ -9,6 +9,7 @@ This project is a simplified front end clone of Amazon. It was created with Reac
 - React Router
 - React Context API
 - React Currency Format
+- Firebase Authentication
 
 Please feel free to create a pull request and submit any issues!
 
