@@ -13,6 +13,7 @@ function Home() {
           title={data.title}
           price={data.price}
           rating={5}
+          url={data.url}
           image={data.image}
         />
       </div>
@@ -27,6 +28,7 @@ function Home() {
           title={data.title}
           price={data.price}
           rating={4}
+          url={data.url}
           image={data.image}
         />
       </div>
