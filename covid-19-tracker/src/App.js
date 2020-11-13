@@ -1,6 +1,16 @@
-import { FormControl, MenuItem, Select } from "@material-ui/core";
+import {
+  FormControl,
+  MenuItem,
+  Select,
+  Card,
+  CardContent,
+} from "@material-ui/core";
 import React, { useEffect, useState } from "react";
 import "./App.css";
+import Graph from "./shared/components/graph/Graph";
+import InfoBox from "./shared/components/infobox/InfoBox";
+import Map from "./shared/components/map/Map";
+import Table from "./shared/components/table/Table";
 
 function App() {
   const [countries, setCountries] = useState([]);
@@ -30,27 +40,40 @@ function App() {
 
   return (
     <div className="app">
-      <div className="app__header">
-        <h1>Covid 19 Tracker - Passionate Burger</h1>
-        <FormControl className="app__dropdown">
-          <Select variant="outlined" onChange={onCountryChange} value={country}>
-            <MenuItem value="worldwide">Worldwide</MenuItem>
-            {countries.map((country) => (
-              <MenuItem value={country.value}>{country.name}</MenuItem>
-            ))}
-          </Select>
-        </FormControl>
+      <div className="app__leftContainer">
+        <div className="app__header">
+          <h1>Covid 19 Tracker - Passionate Burger</h1>
+          <FormControl className="app__dropdown">
+            <Select
+              variant="outlined"
+              onChange={onCountryChange}
+              value={country}
+            >
+              <MenuItem value="worldwide">Worldwide</MenuItem>
+              {countries.map((country) => (
+                <MenuItem value={country.value}>{country.name}</MenuItem>
+              ))}
+            </Select>
+          </FormControl>
+        </div>
+
+        <div className="app__stats">
+          <InfoBox title="Coronavirus Cases" cases={123} total={2000} />
+          <InfoBox title="Recovered" cases={123} total={2000} />
+          <InfoBox title="Deaths" cases={123} total={2000} />
+        </div>
+
+        <Map />
       </div>
-      {/* {Header} */}
-      {/* Title + Select input dropdown field */}
 
-      {/* Infoboxes */}
-      {/* Infoboxes */}
-      {/* Infoboxes */}
-
-      {/* Table */}
-      {/* Graph */}
-      {/* Map */}
+      <Card className="app__rightContainer">
+        <CardContent>
+          <Table />
+        </CardContent>
+        <CardContent>
+          <Graph />
+        </CardContent>
+      </Card>
     </div>
   );
 }
