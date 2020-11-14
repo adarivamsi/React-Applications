@@ -10,6 +10,7 @@ This project is a simple Covid-19 Tracker with Real Time data. Feel free to cont
 - React Chart JS 2
 - Chart JS
 - Numeral
+- React Leaflet
 - Firebase
 
 ## Users can
