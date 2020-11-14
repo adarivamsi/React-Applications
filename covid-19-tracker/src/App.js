@@ -11,6 +11,7 @@ import Graph from "./shared/components/graph/Graph";
 import InfoBox from "./shared/components/infobox/InfoBox";
 import Map from "./shared/components/map/Map";
 import Table from "./shared/components/table/Table";
+import { sortData } from "./shared/utils/utils";
 
 function App() {
   const [countries, setCountries] = useState([]);
@@ -35,7 +36,9 @@ function App() {
             name: country.country,
             value: country.countryInfo.iso2,
           }));
-          setTableData(data);
+          const sortedData = sortData(data);
+
+          setTableData(sortedData);
           setCountries(countries);
         });
     };
