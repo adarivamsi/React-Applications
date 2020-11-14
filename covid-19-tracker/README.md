@@ -5,6 +5,8 @@ This project is a simple Covid-19 Tracker with Real Time data. Feel free to cont
 ## Tools used:
 
 - React
+- Material UI
+- Disease.sh API
 - Firebase
 
 ## Users can
