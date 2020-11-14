@@ -39,7 +39,6 @@ function App() {
           setCountries(countries);
         });
     };
-
     getCountriesData();
   }, []);
 
