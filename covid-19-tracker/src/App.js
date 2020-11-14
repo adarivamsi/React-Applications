@@ -7,7 +7,7 @@ import {
 } from "@material-ui/core";
 import React, { useEffect, useState } from "react";
 import "./App.css";
-import Graph from "./shared/components/graph/Graph";
+import LineGraph from "./shared/components/graph/LineGraph";
 import InfoBox from "./shared/components/infobox/InfoBox";
 import Map from "./shared/components/map/Map";
 import Table from "./shared/components/table/Table";
@@ -18,6 +18,7 @@ function App() {
   const [country, setCountry] = useState("worldwide");
   const [countryInfo, setCountryInfo] = useState({});
   const [tableData, setTableData] = useState([]);
+  const [casesType, setCasesType] = useState("cases");
 
   useEffect(() => {
     fetch("https://disease.sh/v3/covid-19/all")
@@ -106,7 +107,8 @@ function App() {
           <Table countries={tableData} />
         </CardContent>
         <CardContent>
-          <Graph />
+          <h3>Worldwide new {casesType}</h3>
+          <LineGraph casesType={casesType} />
         </CardContent>
       </Card>
     </div>

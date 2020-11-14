@@ -7,6 +7,9 @@ This project is a simple Covid-19 Tracker with Real Time data. Feel free to cont
 - React
 - Material UI
 - Disease.sh API
+- React Chart JS 2
+- Chart JS
+- Numeral
 - Firebase
 
 ## Users can
