@@ -2,7 +2,7 @@ import React from "react";
 import { useStateValue } from "../../../data-layer/StateProvider";
 import "./CheckoutProduct.css";
 
-function CheckoutProduct({ id, title, image, price, rating }) {
+function CheckoutProduct({ id, title, url, image, price, rating }) {
   const [{ cart }, dispatch] = useStateValue();
 
   const removeFromCart = () => {
@@ -16,7 +16,9 @@ function CheckoutProduct({ id, title, image, price, rating }) {
     <div className="checkoutProduct">
       <img className="checkoutProduct__image" src={image} alt="" />
       <div className="checkoutProduct__info">
-        <p className="checkoutProduct__title">{title}</p>
+        <a href={url} className="checkoutProduct__title">
+          {title}
+        </a>
         <p className="checkoutProduct__price">
           <small>$</small>
           <strong>{price}</strong>

@@ -1,13 +1,45 @@
 import React from "react";
+import dataBest from "../../reports/data_best.json";
+import dataProducts from "../../reports/data_products.json";
 import Product from "../shared/product/Product";
 import "./Home.css";
 
 function Home() {
+  const bestProduct = dataBest.map((data) => {
+    return (
+      <div className="home__row">
+        <Product
+          id={data.asin}
+          title={data.title}
+          price={data.price}
+          rating={5}
+          url={data.url}
+          image={data.image}
+        />
+      </div>
+    );
+  });
+
+  const products = dataProducts.map((data) => {
+    return (
+      <div className="home__product">
+        <Product
+          id={data.asin}
+          title={data.title}
+          price={data.price}
+          rating={4}
+          url={data.url}
+          image={data.image}
+        />
+      </div>
+    );
+  });
+
   return (
     <div className="home">
       <img
         className="home__image"
-        src="https://images-na.ssl-images-amazon.com/images/G/01/digital/video/merch/2020/Other/RB-2884_SVOD_Halloween/Amazon_GW_DesktopTallHero_RB-2884_SVOD_V2_Halloween_1500x600._CB403043380_.jpg"
+        src="https://images-na.ssl-images-amazon.com/images/G/01/digital/video/merch/2020/Movie/SENG_2020_GWBleedingHero_1500x600_Final_en-US_HO_CFQuote_._CB417380799_.jpg"
         alt=""
       />
       <div className="home__row">
@@ -49,15 +81,8 @@ function Home() {
           image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
         />
       </div>
-      <div className="home__row">
-        <Product
-          id="90829332"
-          title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
-          price={1094.98}
-          rating={4}
-          image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
-        />
-      </div>
+      {bestProduct}
+      <div className="home__row_scroll">{products}</div>
     </div>
   );
 }

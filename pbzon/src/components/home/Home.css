@@ -8,7 +8,7 @@
   width: 100%;
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   z-index: -1;
-  margin-bottom: -150px;
+  margin-bottom: -300px;
 }
 
 .home__row {
@@ -16,4 +16,21 @@
   z-index: 1;
   margin-left: 5px;
   margin-right: 5px;
+}
+
+.home__row_scroll {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  margin-left: -25px;
+  margin-right: 15px;
+}
+
+.home__product {
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  object-fit: contain;
 }

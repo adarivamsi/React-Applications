@@ -14,8 +14,13 @@
 }
 
 .product__info {
-  height: 100px;
+  height: 350px;
   margin-bottom: 15px;
+}
+
+.product__info > a {
+  text-decoration: none;
+  color: black;
 }
 
 .product__price {
@@ -31,6 +36,7 @@
   width: 100%;
   object-fit: contain;
   margin-bottom: 15px;
+  margin-top: 5px;
 }
 
 .product > button {
