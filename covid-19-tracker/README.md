@@ -15,13 +15,16 @@ This project is a simple Covid-19 Tracker with Real Time data. Feel free to cont
 
 ## Users can
 
-- User
+- Users can view new cases, previous cases, deaths, recovered based on country and also worldwide.
+- Users can look at clean demographs recognizing each countries position.
+- A table is represented to see what country has most.
+- Everything is dynamic.
 
 ## Demo
 
 ![](https://github.com/adarivamsi/React-Applications/blob/master/pbzon/pbzon.gif)
 
-Demo: [Link](https://pbzon-716e1.web.app/)
+Demo: [Link](https://covid-19-tracker-97694.web.app/)
 
 Please feel free to create a pull request and submit any issues!
 
