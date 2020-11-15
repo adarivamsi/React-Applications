@@ -45,10 +45,6 @@ body {
   margin-bottom: 1rem;
 }
 
-.app__information > h3:last-of-type {
-  margin-top: 1rem;
-}
-
 @media (max-width: 990px) {
   .app {
     flex-direction: column;
