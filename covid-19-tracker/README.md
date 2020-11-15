@@ -22,7 +22,7 @@ This project is a simple Covid-19 Tracker with Real Time data. Feel free to cont
 
 ## Demo
 
-![](https://github.com/adarivamsi/React-Applications/blob/master/pbzon/pbzon.gif)
+![](https://github.com/adarivamsi/React-Applications/blob/master/covid-19-tracker/covid-19-tracker-passionate-burger.gif)
 
 Demo: [Link](https://covid-19-tracker-97694.web.app/)
 
