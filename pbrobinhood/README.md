@@ -21,9 +21,9 @@ This project is a simplified front end clone of Robinhood. It was created with R
 
 ## Demo
 
-![](https://github.com/adarivamsi/React-Applications/blob/master/pbflix/pbflix.gif)
+![](https://github.com/adarivamsi/React-Applications/blob/master/pbrobinhood/pbrobinhood.gif)
 
-Demo: [Link](https://pbflix-550e3.web.app/)
+Demo: [Link](https://pb-robinhood.web.app/)
 
 Please feel free to create a pull request and submit any issues!
 
